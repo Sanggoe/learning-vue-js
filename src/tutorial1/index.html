@@ -36,6 +36,12 @@
     <button v-on:click="reverseMessage">메시지 뒤집기</button>
 </div>
 
+<div id="app-6">
+    <!-- 입력한 값 동기화 v-model -->
+    <p>{{message}}</p>
+    <input v-model="message">
+</div>
+
 <script src="index.js"></script>
 </body>
 </html>
